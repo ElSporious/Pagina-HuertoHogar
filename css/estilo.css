@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.caja_titulos { 
+    background: #d3d3d3;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.titulo {
+  font-size: 25px;
+  font-family:'Montserrat', sans-serif;
+}
+
+
+.fondo_prin {
+    margin: 0;
+    padding: 0;
+    background-color: #F7F7F7;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 40px;
+}
+
+body {
+    background-color: #F7F7F7;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Títulos */
+h1, h2, h3 {
+    color: #8B4513;
+}
+
+/* Enlaces */
+a {
+    color: #2E8B57; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Botones */
+button, .btn {
+    background-color: #2E8B57; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, .btn:hover {
+    background-color: #246b45; 
+}
+/* Ofertas y promociones */
+.promo {
+    background-color: #FFD700; 
+    color: #333;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+}
+
