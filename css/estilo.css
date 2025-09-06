@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
-.caja_titulos { 
-    background: #d3d3d3;
+
+.caja_titulo { 
+    background:  #d3d3d3;
     width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: solid black;
 }
 
 .titulo {
   font-size: 25px;
   font-family:'Montserrat', sans-serif;
+  color: #8B4513;
 }
 
 
@@ -21,7 +24,12 @@
     color: #333;
 }
 
-.header {
+.enlaces {
+    color: #2E8B57; 
+    text-decoration: none;
+}
+
+header {
     padding: 20px;
     text-align: center;
 }
@@ -43,10 +51,7 @@ h1, h2, h3 {
 }
 
 /* Enlaces */
-a {
-    color: #2E8B57; 
-    text-decoration: none;
-}
+
 
 a:hover {
     text-decoration: underline;
